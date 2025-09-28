@@ -63,7 +63,7 @@ const Footer = () => {
   return (
     <section
       ref={footerRef}
-      className="relative h-[450px] md:h-[650px] lg:min-h-screen overflow-hidden flex flex-col justify-between"
+      className="relative h-[450px] md:h-[650px] lg:h-screen overflow-hidden mt-10 flex flex-col justify-between"
     >
       <div className="flex justify-between items-start px-5 md:px-10 xl:px-30 lg:mt-20">
         <div ref={menuRef} className="flex flex-col text-[16px] sm:text-[3vw] lg:text-[30px] font-noto-serif font-medium tracking-[-5%]">

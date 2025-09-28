@@ -42,7 +42,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="relative min-h-screen overflow-x-hidden flex flex-col md:-mt-30 lg:mt-20"
+      className="relative min-h-screen overflow-x-hidden flex flex-col md:mt-30 lg:mt-20"
       ref={containerRef}
     >
       <h3 className="text-[40px] font-instrument-serif text-center leading-[110%]">

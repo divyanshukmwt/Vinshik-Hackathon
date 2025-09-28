@@ -39,7 +39,7 @@ const Services = () => {
   return (
     <section
       ref={containerRef}
-      className="min-h-screen bg-gray-50 py-16 px-4 flex flex-col items-center"
+      className="h-full bg-gray-50 py-4 px-4 flex flex-col items-center mt-10  mb-20"
     >
       <h2 className="text-3xl font-semibold text-gray-900 mb-12">Skills</h2>
 

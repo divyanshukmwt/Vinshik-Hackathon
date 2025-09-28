@@ -51,7 +51,7 @@ const Experiences = () => {
         What are my experiences?
       </h3>
 
-      <div ref={containerRef} className="relative mt-[10vh]">
+      <div ref={containerRef} className="relative">
         {projects.map((project, i) => {
           const targetScale = 1 - (projects.length - i) * 0.05;
           return (
